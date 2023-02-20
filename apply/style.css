@@ -1,0 +1,148 @@
+ *,
+ *:before,
+ *:after {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: #0e0c1f;
+ }
+
+ .container {
+     width: 430px;
+     height: 540px;
+     /* border: 1px solid white ;  */
+     position: absolute;
+     transform: translate(-50%, -50%);
+     left: 50%;
+     top: 50%;
+
+ }
+
+ .container .circle1,
+ .circle2 {
+     height: 200px;
+     width: 200px;
+     position: absolute;
+     border-radius: 50%;
+ }
+
+ .circle1 {
+     background: linear-gradient(blue, #bf23f6);
+     left: -80px;
+     top: -50px;
+
+ }
+
+ .circle2 {
+     /* background: linear-gradient(blue, #bf23f6); */
+     background: linear-gradient(to right,yellow,#ff512f);
+     
+     right: -30px;
+     bottom: -50px;
+     /* border: 1px solid yellow; */
+
+
+
+ }
+
+ 
+ form {
+     height: 920px;
+     width: 430px;
+     background-color: rgba(255, 255, 255, 0.07);
+     position: absolute;
+     transform: translate(-50%, -50%);
+     left: 50%;
+     top: 100%;  
+     border-radius: 10px;
+     backdrop-filter: blur(10px);
+     border: 2px solid rgba(255, 255, 255, 0.1);
+     box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+
+
+     padding: 50px 35px;
+
+
+
+ }
+
+ form * {
+     color: white;
+     letter-spacing: 1px;
+     outline: none;
+     border: none;
+
+
+ }
+
+ form h3 {
+     font-size: 32px;
+     font-weight: bold;
+     line-height: 42px;
+     text-align: center;
+
+
+ }
+
+ form h3 span {
+     display: block;
+     font-size: 16px;
+     font-weight: 300px;
+
+ }
+
+ label {
+     display: block;
+     margin-top: 30px;
+     font-size: 16px;
+     font-weight: 500px;
+ }
+
+ input {
+     display: block;
+     height: 50px;
+     width: 100%;
+     background-color: rgba(255, 255, 255, 0.07);
+     border-radius: 4px;
+     padding: 0 10px;
+     margin-top: 8px;
+     font-size: 15px;
+     font-weight: 300px;
+
+
+ }
+
+ ::placeholder {
+     color: #e5e5e5;
+ }
+
+ button {
+     margin-top: 50px;
+     width: 100%;
+     background-color: white;
+     color: black;
+     height: 45px;
+     padding: 15px;
+     font-size: 18px;
+     font-weight: bold;
+     border-radius: 4px;
+
+
+
+
+
+ }
+
+ button:hover {
+    background: linear-gradient(to right,yellow,#ff512f);
+     /* background: linear-gradient(blue, violet); */
+     /* background: linear-gradient(red, yellow); */
+     color: white;
+     
+ }
+ span{
+    color: #ff512f;
+ }
